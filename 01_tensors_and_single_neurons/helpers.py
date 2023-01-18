@@ -25,7 +25,7 @@ def print_python_version() -> None:
     """
     print(f'Python version: {sys.version}')
 
-def print_tensor_info(tensor: torch.Tensor, fields: list[str]=None) -> None:
+def print_tensor_info(tensor: torch.Tensor, fields:=None) -> None:
     """
     Prints information about a tensor.
     Parameters
